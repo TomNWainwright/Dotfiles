@@ -1,0 +1,68 @@
+
+
+config:
+  backup: true
+  create: true  
+  dotpath: dotfiles
+dotfiles:
+  d_elvish:
+    src: elvish
+    dst: ~/.elvish
+    link: link
+
+  bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+    link: link
+
+  bash_profile:
+    src: bash_profile
+    dst: ~/.bash_profile
+    link: link
+  gitconfig:
+    src: gitconfig
+    dst: ~/.gitconfig
+    link: link
+
+  bash_profile_ubuntu:
+    src: bash_profile
+    dst: ~/.profile
+    link: link
+
+
+  rofi:
+    src: rofi
+    dst: ~/.config/rofi
+    link: link
+
+profiles:
+  tom-desktop:
+    dotfiles:
+    - d_elvish
+    - bash_profile
+    - bashrc
+    - rofi
+    - gitconfig
+    variables:
+        home: "/home/tomw/"
+        local: "{{@@ home @@}}.local/"
+        local_share: "{{@@ local @@}}share/"
+        home_bin: "{{@@ home @@}}bin/"
+        config: "{{@@ home @@}}.config/"
+        
+
+  tom-laptop:
+    dotfiles:
+    - d_elvish
+    - bash_profile
+    - bashrc
+    - rofi
+    - gitconfig
+    variables:
+        home: "/home/tom/"
+        local: "{{@@ home @@}}.local/"
+        local_share: "{{@@ local @@}}share/"
+        home_bin: "{{@@ home @@}}bin/"
+        config: "{{@@ home @@}}.config/"
+
+

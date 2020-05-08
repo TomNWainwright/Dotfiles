@@ -1,0 +1,10 @@
+/*	width: 50;*/
+/*	lines: 15;*/
+/*	columns: 1;*/
+/*	font: "mono 12";*/
+/*	bw: 1;*/
+	location: 0;
+/*	padding: 5;*/
+	yoffset: -540;
+/*	xoffset: 0;*/
+/*	fixed-num-lines: true;*/ 
