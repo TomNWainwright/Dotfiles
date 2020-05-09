@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Google Chrome Bookmarks",
+  "description": "Search and launch Google Chrome bookmarks",
+  "developer_name": "Dmitry Antonenko",
+  "icon": "images/chrome.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "chrome_bookmarks",
+      "type": "keyword",
+      "name": "Chrome bookmarks",
+      "description": "Find in chrome bookmarks",
+      "default_value": "cb"
+    }
+  ]
+}

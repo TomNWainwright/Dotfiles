@@ -35,6 +35,16 @@ dotfiles:
     dst: ~/.config/rofi
     link: link
 
+  ulauncher:
+    src: ulauncher
+    dst: ~/.config/ulauncher
+    link: link
+
+  ulauncher-extensions:
+    src: ulauncher-extensions
+    dst: ~/.local/share/ulauncher
+    link: link
+    
 profiles:
   tom-desktop:
     dotfiles:
@@ -43,6 +53,8 @@ profiles:
     - bashrc
     - rofi
     - gitconfig
+    - ulauncher
+    - ulauncher-extensions
     variables:
         home: "/home/tomw/"
         local: "{{@@ home @@}}.local/"
@@ -58,6 +70,8 @@ profiles:
     - bashrc
     - rofi
     - gitconfig
+    - ulauncher
+    - ulauncher-extensions
     variables:
         home: "/home/tom/"
         local: "{{@@ home @@}}.local/"

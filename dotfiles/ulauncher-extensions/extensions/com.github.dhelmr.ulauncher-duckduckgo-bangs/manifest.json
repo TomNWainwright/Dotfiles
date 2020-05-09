@@ -1,0 +1,29 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Duckduckgo bangs",
+    "description": "Duckduckgo bangs extension",
+    "developer_name": "dhelmr",
+    "icon": "icons/ddg_icon.png",
+    "preferences": [
+        {
+            "id": "keyword",
+            "type": "keyword",
+            "name": "Duckduckgo bangs",
+            "default_value": "!"
+        },
+        {
+            "id": "max_results",
+            "type": "select",
+            "name": "Maximum number of results",
+            "default_value": "8",
+            "options": ["3","4","5","6","7","8","9","10","11","12"]
+        },
+        {
+            "id": "force_download",
+            "type": "select",
+            "name": "Download bangs from DuckDuckGo on startup (~2.5MB). Turn off if you have a slow / cost-intensive connection.",
+            "default_value": "Always",
+            "options": ["Always", "Never"]
+        }
+    ]
+}

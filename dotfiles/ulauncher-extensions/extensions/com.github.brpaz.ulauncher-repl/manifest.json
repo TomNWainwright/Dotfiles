@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Repl.it",
+  "description": "Provides Quick access to repl.it service for multiple languages",
+  "developer_name": "Bruno Paz",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.2
+  },
+  "preferences": [
+    {
+      "id": "demo_kw",
+      "type": "keyword",
+      "name": "Repl",
+      "description": "Provides Quick access to your repl´s created on Repl.it",
+      "default_value": "repl"
+    }
+  ]
+}

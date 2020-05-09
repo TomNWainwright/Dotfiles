@@ -1,0 +1,33 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "ulauncher-pass-paster",
+  "description": "ulauncher extension with copy to clipboard function of pass",
+  "developer_name": "m3y",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "pass_paster_kw",
+      "type": "keyword",
+      "name": "pass paster",
+      "description": "copy to clipboard function of pass",
+      "default_value": "pp"
+    },
+    {
+      "id": "passstore_dir",
+      "type": "input",
+      "name": "passstore dir",
+      "description": "PASSWORD_STORE_DIR",
+      "default_value": "~/.password-store"
+    },
+    {
+      "id": "max_num",
+      "type": "input",
+      "name": "max number of list",
+      "description": "Maximum number of search results",
+      "default_value": 10
+    }
+  ]
+}
