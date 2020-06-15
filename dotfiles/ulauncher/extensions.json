@@ -1,11 +1,4 @@
 {
-    "com.github.egehangundogdu.ulauncher-covid19": {
-        "id": "com.github.egehangundogdu.ulauncher-covid19",
-        "url": "https://github.com/EgehanGundogdu/ulauncher-covid19",
-        "updated_at": "2020-05-09T12:13:11.978746",
-        "last_commit": "f19b988c44eb84684f109bdf4c22fed5c880fe49",
-        "last_commit_time": "2020-04-20T13:49:20"
-    },
     "com.github.skeletonkey.ulauncher-zoom-join-meeting": {
         "id": "com.github.skeletonkey.ulauncher-zoom-join-meeting",
         "url": "https://github.com/skeletonkey/ulauncher-zoom-join-meeting",
@@ -19,13 +12,6 @@
         "updated_at": "2020-05-09T12:17:26.287805",
         "last_commit": "4734455e255a401ff7507192386ed62361cb3748",
         "last_commit_time": "2019-05-20T18:00:00"
-    },
-    "com.github.lifeofcoding.ulauncher-youtube": {
-        "id": "com.github.lifeofcoding.ulauncher-youtube",
-        "url": "https://github.com/lifeofcoding/ulauncher-youtube",
-        "updated_at": "2020-05-09T12:18:32.265626",
-        "last_commit": "1c5ea1b977bcda0d42898b51106753dab20d4ca1",
-        "last_commit_time": "2020-04-23T01:13:37"
     },
     "com.github.elken.terminal-runner": {
         "id": "com.github.elken.terminal-runner",
@@ -96,13 +82,6 @@
         "updated_at": "2020-05-09T12:25:19.484021",
         "last_commit": "7ba3f9fb273c4cbbecd26352c88a3156205417db",
         "last_commit_time": "2020-01-05T13:02:00"
-    },
-    "com.github.noam09.ulauncher-maim": {
-        "id": "com.github.noam09.ulauncher-maim",
-        "url": "https://github.com/noam09/ulauncher-maim",
-        "updated_at": "2020-05-09T12:25:33.498693",
-        "last_commit": "bfc3873585283d12997c08d3d9055e60215d2956",
-        "last_commit_time": "2019-11-14T13:29:28"
     },
     "com.github.ruudjelinssen.ulauncher-imdb": {
         "id": "com.github.ruudjelinssen.ulauncher-imdb",
@@ -215,13 +194,6 @@
         "updated_at": "2020-05-09T12:30:22.963647",
         "last_commit": "4cb5a3bda8dc89ec39f430cd37a0821671f3b168",
         "last_commit_time": "2019-12-03T20:14:40"
-    },
-    "com.github.brpaz.ulauncher-text-expander": {
-        "id": "com.github.brpaz.ulauncher-text-expander",
-        "url": "https://github.com/brpaz/ulauncher-text-expander",
-        "updated_at": "2020-05-09T12:30:33.476412",
-        "last_commit": "227967eb92a1c3a85b3c4e75e07118945ebec85c",
-        "last_commit_time": "2020-01-06T20:22:58"
     },
     "com.github.brpaz.ulauncher-repl": {
         "id": "com.github.brpaz.ulauncher-repl",

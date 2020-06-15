@@ -2,8 +2,9 @@
 # ~/.bash_profile
 #
 
-xcape -e 'Super_L=Control_L|space'
+#xcape -e 'Super_L=Control_L|space'
 
+synclient TapButton1=1 TapButton2=3 TapButton3=2
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
